@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flutterawsworkspace-staging-71425-authRole",
+      "UnauthRoleArn": "arn:aws:iam::950617404659:role/amplify-flutterawsworkspace-staging-71425-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::950617404659:role/amplify-flutterawsworkspace-staging-71425-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-flutterawsworkspace-staging-71425-deployment",
+      "UnauthRoleName": "amplify-flutterawsworkspace-staging-71425-unauthRole",
+      "StackName": "amplify-flutterawsworkspace-staging-71425",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:950617404659:stack/amplify-flutterawsworkspace-staging-71425/25cb1f70-e014-11ed-8d9c-0a455fdf670f",
+      "AmplifyAppId": "d1ucq79vluolat"
+    }
+  }
+}

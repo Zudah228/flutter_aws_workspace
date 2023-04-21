@@ -12,8 +12,9 @@ dependencies:
     sdk: flutter
 
   # AWS
+  amplify_api: ^1.0.0
   amplify_flutter: ^1.0.0
-  aws_dynamodb_api: ^2.0.0
+  amplify_datastore: ^1.0.0-supports-only-mobile
   aws_dax_api: ^2.0.0
 
   cupertino_icons: ^1.0.2
