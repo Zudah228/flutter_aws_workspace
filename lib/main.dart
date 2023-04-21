@@ -5,7 +5,7 @@ import 'package:amplify_datastore/amplify_datastore.dart';
 import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_aws_workspace/amplifyconfiguration.dart';
-import 'package:flutter_aws_workspace/models/ModelProvider.dart';
+import 'package:flutter_aws_workspace/amplify_gen/models/ModelProvider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
