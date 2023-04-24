@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'amplify_dynamo_db/amplify_dynamo_db_page.dart';
+import 'aws_dynamo_db/aws_dynamo_db_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -24,6 +25,17 @@ class HomePage extends StatelessWidget {
                 );
               },
               child: const Text('Amplify'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AwsDynamoDbPage(),
+                  ),
+                );
+              },
+              child: const Text('AWS'),
             )
           ],
         ),
